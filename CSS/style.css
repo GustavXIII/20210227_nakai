@@ -190,6 +190,10 @@ header {
   text-decoration: none;
 }
 
+.header-list a {
+  color: white;
+}
+
 a {
   text-decoration: none;
 }
@@ -460,4 +464,8 @@ footer {
   top: 15px;
   right: 15px;
   text-decoration: none;
+}
+
+.footer-list a {
+  color: white;
 }
