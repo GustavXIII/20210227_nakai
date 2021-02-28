@@ -223,18 +223,17 @@ a:visited {
   background-color: white;
   height: 10px;
   position: absolute;
-  bottom: 18px;
+  bottom: 20px;
   right: 0px;
   z-index: 3;
 }
 
 .date {
-  margin: 3px;
   background-color: white;
 }
 
 .news p {
-  padding: 4px;
+  padding: 5px;
   background-color: white;
   width: 400px;
 }
@@ -281,15 +280,11 @@ a:visited {
   line-height: 15px;
 }
 
-.mission link {
-  background-color: white;
-  color: white;
-  outline-style: solid;
+.mission-button {
   position: absolute;
-  top: 75px;
-  right: 75px;
+  font-size: 4px;
   left: 75px;
-  bottom: 75px;
+  bottom: 100px;
 }
 
 .mission-a {
@@ -468,6 +463,14 @@ a:visited {
 .contact-contents {
   font-size: xx-small;
   padding: 5px;
+}
+
+.contact-button {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  font-size: 4px;
 }
 
 footer {
