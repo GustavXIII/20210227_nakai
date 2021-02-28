@@ -269,6 +269,9 @@ a:visited {
   font-size: 3px;
   color: white;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   top: 75px;
   right: 75px;
   left: 75px;
@@ -279,6 +282,8 @@ a:visited {
 
 .mission-button {
   position: absolute;
+  background-color: white;
+  padding: 5px;
   font-size: 4px;
   left: 75px;
   bottom: 100px;
