@@ -540,38 +540,26 @@ body {
   }
 
   .service {
-    display: flex;
-    justify-content: center;
+    max-width: 100%;
   }
 
   .service-img {
+    margin: 0 auto;
     width: 100%;
-    height: 25%;
-    margin: 20px;
-  }
-
-  .service-img_second {
-    display: inline;
-    text-align: center;
-    width: 100%;
-    height: 25%;
-    margin: 20px;
   }
 
   .common-btn {
     font-size: 14px;
   }
 
-  .service-content_inner {
-    width: 100%;
-    height: 25%;
-    left: 0px;
+  .service-content {
+    flex-direction: column;
   }
 
-  .service-content_inner-second {
+  .service-content_inner {
+    margin: 0 auto;
+    text-align: left;
     width: 100%;
-    height: 25%;
-    left: 0px;
   }
 
   .company {
