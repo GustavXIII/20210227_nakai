@@ -519,19 +519,19 @@ body {
   }
 
   #hamburger span:nth-of-type(1) {
-    top: 10px; /* ハンバーガーメニューの1本目の棒 */
+    top: 10px;
   }
 
   #hamburger span:nth-of-type(2) {
-    top: 20px; /* ハンバーガーメニューの2本目の棒 */
+    top: 20px;
   }
 
   #hamburger span:nth-of-type(3) {
-    top: 30px; /* ハンバーガーメニューの3本目の棒 */
+    top: 30px;
   }
 
   .header-nav {
-    display: none; /* デスクトップのナビを消す */
+    display: none;
   }
 
   .news-content {
@@ -543,23 +543,30 @@ body {
     max-width: 100%;
   }
 
-  .service-img {
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .common-btn {
-    font-size: 14px;
-  }
-
   .service-content {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
   }
 
   .service-content_inner {
+    width: 80%;
     margin: 0 auto;
-    text-align: left;
-    width: 100%;
+    left: 50px;
+    top: 200px;
+  }
+
+  .service-content_inner-second {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .service-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .common-btn {
+    font-size: 12px;
   }
 
   .company {
