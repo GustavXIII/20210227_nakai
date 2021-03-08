@@ -368,7 +368,6 @@ body {
 }
 
 .service-content_inner {
-  position: absolute;
   top: 15%;
   left: 20%;
   background: #fff;
@@ -544,7 +543,7 @@ body {
   }
 
   .service-content {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
