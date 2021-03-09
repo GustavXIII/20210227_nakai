@@ -346,6 +346,7 @@ body {
 .service {
   background: #e5e5e5;
   margin-bottom: 10%;
+  position: relative;
 }
 
 .service-title {
@@ -369,11 +370,13 @@ body {
   width: 50%;
   padding: 5% 5%;
   box-sizing: border-box;
+  position: absolute;
 }
 
 .service-content_inner-second {
-  bottom: 55%;
-  left: 50%;
+  position: absolute;
+  left: 10%;
+  bottom: 45%;
 }
 
 .service-btn {
@@ -548,6 +551,7 @@ body {
   }
 
   .service-content_inner {
+    position: absolute;
     width: 80%;
     margin: 0 auto;
     left: 50px;
@@ -555,13 +559,22 @@ body {
   }
 
   .service-content_inner-second {
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    right: 50px;
+    bottom: 200px;
+  }
+
+  .service-img {
+    position: absolute;
     width: 80%;
     margin: 0 auto;
   }
 
-  .service-img {
-    width: 80%;
-    margin: 0 auto;
+  .service-img_second {
+    position: absolute;
+    left: 0px;
   }
 
   .common-btn {
