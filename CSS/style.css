@@ -347,7 +347,6 @@ body {
   background: #e5e5e5;
   margin-bottom: 10%;
   position: relative;
-  height: 1000px;
 }
 
 .service-title {
@@ -357,38 +356,31 @@ body {
 
 .service-content {
   padding-bottom: 15%;
-  position: absolute;
 }
 
 .service-img {
-  display: block;
   width: 50%;
-  right: 0%;
-  top: 10%;
-  position: absolute;
+  margin-left: 50%;
 }
 
 .service-img_second {
-  display: block;
   width: 50%;
-  margin-left: 50%;
-  left: 100%;
-  bottom: 25%;
-  position: absolute;
+  margin-left: 0%;
 }
 
 .service-content_inner {
-  top: 35%;
-  right: 50%;
+  top: 20%;
+  right: 40%;
   background: #fff;
   width: 50%;
   padding: 5% 5%;
   box-sizing: border-box;
+  position: absolute;
 }
 
 .service-content_inner-second {
-  bottom: 50%;
-  left: 0%;
+  top: 60%;
+  right: 15%;
 }
 
 .service-btn {
@@ -562,21 +554,30 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    position: static;
   }
 
   .service-content_inner {
     width: 80%;
     margin: 0 auto;
+    position: static;
   }
 
   .service-content_inner-second {
     width: 80%;
     margin: 0 auto;
+    position: static;
   }
 
   .service-img {
     width: 80%;
     margin: 0 auto;
+    position: static;
+  }
+
+  .service-img_second {
+    margin: 0 auto;
+    position: static;
   }
 
   .common-btn {
