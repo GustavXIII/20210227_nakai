@@ -282,7 +282,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: auto;
+  width: 100%;
 }
 .news-content {
   background: #fff;
@@ -319,7 +319,7 @@ body {
 .mission-content {
   padding: 10% 0 10% 20%;
   box-sizing: border-box;
-  width: 70%;
+  width: 80%;
 }
 
 .mission_title,
@@ -354,7 +354,6 @@ body {
 }
 
 .service-content {
-  position: relative;
   padding-bottom: 15%;
 }
 
@@ -367,13 +366,14 @@ body {
   top: 15%;
   left: 20%;
   background: #fff;
-  width: 40%;
+  width: 50%;
   padding: 5% 5%;
   box-sizing: border-box;
 }
 
 .service-content_inner-second {
-  left: 40%;
+  bottom: 55%;
+  left: 50%;
 }
 
 .service-btn {
