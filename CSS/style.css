@@ -347,6 +347,7 @@ body {
   background: #e5e5e5;
   margin-bottom: 10%;
   position: relative;
+  height: 1000px;
 }
 
 .service-title {
@@ -356,27 +357,38 @@ body {
 
 .service-content {
   padding-bottom: 15%;
+  position: absolute;
 }
 
 .service-img {
+  display: block;
+  width: 50%;
+  right: 0%;
+  top: 10%;
+  position: absolute;
+}
+
+.service-img_second {
+  display: block;
   width: 50%;
   margin-left: 50%;
+  left: 100%;
+  bottom: 25%;
+  position: absolute;
 }
 
 .service-content_inner {
-  top: 15%;
-  left: 20%;
+  top: 35%;
+  right: 50%;
   background: #fff;
   width: 50%;
   padding: 5% 5%;
   box-sizing: border-box;
-  position: absolute;
 }
 
 .service-content_inner-second {
-  position: absolute;
-  left: 10%;
-  bottom: 45%;
+  bottom: 50%;
+  left: 0%;
 }
 
 .service-btn {
@@ -497,6 +509,7 @@ body {
 
   .catchcopy {
     text-align: center;
+    margin-right: 10%;
   }
 
   #hamburger {
@@ -548,33 +561,22 @@ body {
   .service-content {
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
   }
 
   .service-content_inner {
-    position: absolute;
     width: 80%;
     margin: 0 auto;
-    left: 50px;
-    top: 200px;
   }
 
   .service-content_inner-second {
-    position: absolute;
     width: 80%;
     margin: 0 auto;
-    right: 50px;
-    bottom: 200px;
   }
 
   .service-img {
-    position: absolute;
     width: 80%;
     margin: 0 auto;
-  }
-
-  .service-img_second {
-    position: absolute;
-    left: 0px;
   }
 
   .common-btn {
