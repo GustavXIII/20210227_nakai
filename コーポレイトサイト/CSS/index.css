@@ -1,0 +1,457 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+header {
+  text-align: right;
+  background-color: white;
+  height: 50px;
+}
+
+header h1 {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-list {
+  list-style: none;
+  padding-top: 1.5%;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+
+.top-container {
+  background-image: url(/Users/ryonakai/coachtech/コーポレイトサイト/img/mv.png);
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+.top-container h1 {
+  color: white;
+  font-size: 40px;
+  padding-top: 20%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.top-container p {
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.second-container {
+  height: 250px;
+  background-color: rgb(34, 35, 35);
+  color: white;
+  text-align: left;
+}
+
+.second-container h1 {
+  font-size: 32px;
+  padding-top: 5%;
+  padding-bottom: 30px;
+}
+
+.second-container p {
+  padding: 5px;
+  line-height: 25px;
+}
+
+.service h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.service-contents {
+  display: flex;
+  width: 100%;
+}
+
+.service-content {
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.service-title {
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.service-img {
+  height: 300px;
+}
+
+.service-btn,
+.news-btn,
+.contact-btn {
+  background-color: #cd0323;
+  color: white;
+  border: none;
+  transition: all;
+}
+
+.service-btn:hover,
+.news-btn:hover,
+.contact-btn:hover {
+  background-color: #e06169;
+}
+
+.service-btn,
+.contact-btn {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 30px;
+  width: 300px;
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.service-btn {
+  margin-top: 30px;
+}
+
+.service-box {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.service-a {
+  font-size: 24px;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #cd0323;
+  width: 50%;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.service-b {
+  font-size: 24px;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black;
+  width: 50%;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.service-a:hover .service-b:hover {
+  background-color: #e06169;
+}
+
+.contact {
+  background-color: #f5f6f9;
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-p {
+  padding: 20px;
+}
+
+.contact-btn {
+  margin-top: 20px;
+}
+
+.news-btn {
+  display: block;
+  font-size: 16px;
+  width: 180px;
+  height: 30px;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.news-line {
+  position: relative;
+  background-color: #222222;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.news-title {
+  font-size: 30px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.newsp {
+  font-weight: bold;
+}
+
+.news-one,
+.news-two,
+.news-three {
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.blog {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog h3 {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.blog-contents {
+  display: inline-block;
+  padding-left: 4%;
+}
+
+.blog-title {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-img {
+  height: 200px;
+  width: 300px;
+}
+
+footer {
+  background-color: black;
+  text-align: right;
+  height: 50px;
+}
+
+.footer-list {
+  font-size: 24px;
+}
+
+footer a {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  float: left;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 15px;
+  text-align: right;
+}
+
+.footer-list a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 10px;
+}
