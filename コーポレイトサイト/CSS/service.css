@@ -173,3 +173,144 @@ input,
 select {
   vertical-align: middle;
 }
+
+header {
+  text-align: right;
+  background-color: white;
+  height: 50px;
+}
+
+header h1 {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-list {
+  list-style: none;
+  padding-top: 1.5%;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  margin: 5px;
+}
+
+.s-top-container {
+  text-align: center;
+  height: 200px;
+  background-image: url(/Users/ryonakai/coachtech/コーポレイトサイト/img/mv.png);
+}
+
+.s-top-container h1 {
+  color: white;
+  font-size: 30px;
+  padding-top: 5%;
+}
+
+.service-contents {
+  padding-top: 100px;
+  width: 100%;
+  color: #000;
+}
+
+.service-contents p {
+  text-align: left;
+}
+
+.service-content {
+  padding-left: 10%;
+  width: 50%;
+}
+
+.service-img {
+  height: 200px;
+}
+
+hr {
+  width: 80%;
+  margin-left: 10%;
+  border-color: #000;
+}
+
+.contact {
+  background-color: #f5f6f9;
+  height: 250px;
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-title {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+.contact-p {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.contact-btn {
+  background-color: #cd0323;
+  color: white;
+  border: none;
+  transition: all;
+}
+
+.contact-btn:hover {
+  background-color: #e06169;
+}
+
+.contact-btn {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 30px;
+  width: 300px;
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+  text-align: right;
+  height: 50px;
+}
+
+.footer-list {
+  font-size: 24px;
+}
+
+footer a {
+  color: white;
+}
+
+.copyright {
+  color: white;
+  float: left;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 15px;
+  text-align: right;
+}
+
+.footer-list a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 10px;
+}
