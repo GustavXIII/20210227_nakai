@@ -422,9 +422,11 @@ header h1 {
 }
 
 footer {
+  display: flex;
   background-color: black;
   text-align: right;
   height: 50px;
+  width: 100%;
 }
 
 .footer-list {
@@ -436,15 +438,16 @@ footer a {
 }
 
 .copyright {
+  display: flex;
+  font-weight: normal;
+  font-size: 12px;
   color: white;
-  float: left;
-  padding-top: 15px;
-  padding-left: 5px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 .footer-list {
-  list-style: none;
-  padding: 15px;
+  margin: 0 auto;
   text-align: right;
 }
 
@@ -478,18 +481,18 @@ footer a {
   }
 
   #hamburger span:nth-of-type(1) {
-    top: 10px;
+    top: 0px;
   }
 
   #hamburger span:nth-of-type(2) {
-    top: 20px;
+    top: 10px;
   }
 
   #hamburger span:nth-of-type(3) {
-    top: 30px;
+    top: 20px;
   }
 
-  .header-nav {
+  .header-list {
     display: none;
   }
 
@@ -500,7 +503,14 @@ footer a {
     width: 50%;
   }
 
+  .service-contents h3 p {
+    padding: 5%;
+    margin-left: 60%;
+  }
+
   .service-img {
+    margin-left: 65%;
+    padding: 5%;
   }
 
   .news-line {
@@ -526,5 +536,14 @@ footer a {
   .news-three {
     width: 90%;
     margin-left: 3%;
+  }
+
+  footer {
+    margin: 0 auto;
+    display: block;
+    height: 250px;
+  }
+
+  .footer-list {
   }
 }

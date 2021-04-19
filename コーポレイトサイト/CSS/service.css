@@ -222,16 +222,22 @@ header h1 {
 }
 
 .service-contents p {
-  text-align: left;
 }
 
+.service-contents h3 {
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+}
 .service-content {
+  display: flex;
   padding-left: 10%;
-  width: 50%;
+  width: 100%;
 }
 
 .service-img {
-  height: 200px;
+  height: 250px;
+  justify-content: space-around;
 }
 
 hr {
@@ -313,4 +319,43 @@ footer a {
   padding: 10px;
   margin: 5px;
   font-size: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    top: 15px;
+    right: 20px;
+    transition: 0.4s;
+  }
+
+  #hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    transition: 0.8s;
+  }
+
+  #hamburger span:nth-of-type(1) {
+    top: -5px;
+  }
+
+  #hamburger span:nth-of-type(2) {
+    top: 8px;
+  }
+
+  #hamburger span:nth-of-type(3) {
+    top: 21px;
+  }
+
+  .header-list {
+    display: none;
+  }
 }
